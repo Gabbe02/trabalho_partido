@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #003470;
+}
+
+nav {
+    display: flex; /* Definindo nav como flex container */
+    justify-content: space-between; /* Distribui espaço entre os elementos */
+    align-items: center; /* Centraliza os itens verticalmente */
+    min-width: 1200px;
+    max-width: 1400px;
+    height: 125px;
+    margin: 0 auto;
+    background-color: #015494;
+}
+
+nav #logo {
+    margin: 15px;
+}
+
+nav #logo img {
+    height: 75px;
+}
+
+nav h1 {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 20px;
+    font-family: Montserrat, sans-serif;
+}
+
+nav ul {
+    display: flex; /* Mantendo Flexbox no menu */
+    align-items: center; /* Alinha os itens do menu verticalmente */
+    margin-right: 20px; /* Adicionando margem para afastar do lado direito */
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px; /* Ajuste das margens dos links */
+    font-size: 16px;
+}
+
+nav ul li a {
+    color: aliceblue;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+}
+#content {
+    max-width: 1200px;
+    margin: 40px auto; /* Centraliza o conteúdo e adiciona margem superior */
+    padding: 20px;
+    display: flex; /* Flexbox no container geral para alinhar imagem e texto */
+    justify-content: flex-start; /* Alinha os itens no início */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+#content img {
+    max-width: 45%; /* Define a imagem com 45% da largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+#content h2 {
+    font-size: 28px;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+}
+
+#content p {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+    line-height: 1.6;
+}
+
+.image-text-container {
+    display: flex; /* Ativa o flexbox no container da imagem e do texto */
+    justify-content: space-between; /* Garante que a imagem e o texto fiquem distantes */
+    width: 100%; /* Garante que o container ocupe toda a largura */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.text-container {
+    max-width: 50%; /* Define o texto com 50% da largura */
+    padding-left: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+.text-container h2 {
+    font-size: 28px;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+}
+
+.text-container p {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+    line-height: 1.6;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
